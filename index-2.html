@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Site Name</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>Noticias
+              </a>
+            </li>
+             <li>
+              <a href="#"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>Enlaces RSS           
+              </a>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
+            </div>
+            <button type="submit" class="btn btn-default">Buscar</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Bienvenido</a></li>
+    <li role="presentation"><a href="#">Actualidades</a></li>
+    <li role="presentation"><a href="#">En directo</a></li>
+    <li role="presentation"><a href="#">Reporte financiero</a></li>
+    <li role="presentation"><a href="#">Nuestra oferta</a></li>
+    <li role="presentation"><a href="#">De nosotros a usted</a></li>
+  </ul>
+
+
+  <div class="container-fluid">
+    <div class="row space">
+      <div class="col-lg-5">
+        <div class="box-gray">Historia destacada</div>
+        <p><strong>Artículo |</strong> <p class="text-gray"> publicado el 09/10/15</p></p>
+        <h4><strong>Lorem ipsum et diligat gentris</strong></h4>
+        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula tellus. In porttitor lobortis lacinia. Praesent sollicitudin metus ipsum, ac tincidunt nibh finibus sed. Fusce at massa pulvinar, porta augue ut, mattis neque. Fusce et ipsum elit. Morbi blandit ac arcu nec semper. Aliquam efficitur lacinia pharetra.</p>
+        <a href="#">
+          <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>Ver más...
+        </a>
+        <a href="#">
+          <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>Etiquetas: <p class="text-gray subrayado">lorem</p><p class="text-gray subrayado">ipsum</p><p class="text-gray subrayado">diligat</p>
+        </a>
+        <hr>
+        <div class="row">
+          <div class="box-black">Webzone</div> <p class="subrayado">Preguntas | <p>publicado el 09/10/15</p></p>
+          <h4><strong>Lorem ipsum et diligat gentris</strong></h4>
+          <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula tellus. In porttitor lobortis lacinia. Praesent sollicitudin metus ipsum, ac tincidunt nibh finibus sed. Fusce at massa pulvinar, porta augue ut, mattis neque. Fusce et ipsum elit. Morbi blandit ac arcu nec semper. Aliquam efficitur lacinia pharetra.</p>
+          <a href="#">
+            <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>Ver más...
+          </a>
+          <a href="#">
+            <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>Etiquetas: <p class="text-gray subrayado">lorem</p><p class="text-gray subrayado">ipsum</p><p class="text-gray subrayado">diligat</p>
+          </a>
+          <hr>
+        </div>
+        <div class="row">
+          <p><strong>Artículo |</strong> <p class="text-gray"> publicado el 09/10/15</p></p>
+          <h4><strong>Etiam lorem et suspira nostres</strong></h4>
+          <div class="bg-gray">FOTO</div>
+          <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula tellus. In porttitor lobortis lacinia. Praesent sollicitudin metus ipsum, ac tincidunt nibh finibus sed. Fusce at massa pulvinar, porta augue ut, mattis neque. Fusce et ipsum elit. Morbi blandit ac arcu nec semper. Aliquam efficitur lacinia pharetra.</p>
+          <a href="#">
+            <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>Ver más...
+          </a>
+          <a href="#">
+            <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>Etiquetas: <p class="text-gray subrayado">lorem</p><p class="text-gray subrayado">ipsum</p><p class="text-gray subrayado">diligat</p>
+          </a>
+          <hr>
+        <div class="row">
+          <h4><strong>Lorem ipsum et diligat gentris</strong></h4>
+          <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula tellus. In porttitor lobortis lacinia. Praesent sollicitudin metus ipsum, ac tincidunt nibh finibus sed. Fusce at massa pulvinar, porta augue ut, mattis neque. Fusce et ipsum elit. Morbi blandit ac arcu nec semper. Aliquam efficitur lacinia pharetra.</p>
+        </div>  
+      </div>  
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-gray">
+          <div class="box-gray">Historia destacada</div>
+          <div class="video">
+            <div class="video-menu">
+              <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+              <div class="circulo-gris"><hr></div>
+              <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </div>
+          </div>
+          <h4><strong>Claire Dupont</strong></h4>
+          <div class="bg-gray">Foto</div>
+          <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula tellus. In porttitor lobortis lacinia. Praesent sollicitudin metus ipsum, ac tincidunt nibh finibus sed. Fusce at massa pulvinar, porta augue ut, mattis neque. Fusce et ipsum elit. Morbi blandit ac arcu nec semper. Aliquam efficitur lacinia pharetra.</p>
+          <p class="text-gray">publicado el 09/10/15 <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>Ver más...</p>
+            <div class="row">
+              <div class="box-gray">Agenda</div>
+              <div class="box-dates">
+                <div class="bg-gray box-date">
+                  <p class="date">23 de Enero</p>
+                </div>
+                <h4><strong>Lorem ipsum et diligat</strong></h4>
+                <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit. <br>De 23 a 28 de Diciembre 2015</p>
+                <div class="bg-gray box-date">
+                  <p class="date">23 de Enero</p>
+                </div>
+                <h4><strong>Lorem ipsum et diligat</strong></h4>
+                <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit. <br>De 23 a 28 de Diciembre 2015</p>
+                <div class="bg-gray box-date">
+                  <p class="date">23 de Enero</p>
+                </div>
+                <h4><strong>Lorem ipsum et diligat</strong></h4>
+                <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit. <br>De 23 a 28 de Diciembre 2015</p>
+                <div class="bg-gray box-date">
+                  <p class="date">23 de Enero</p>
+                </div>
+                <h4><strong>Lorem ipsum et diligat</strong></h4>
+                <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit. <br>De 23 a 28 de Diciembre 2015</p>
+              </div>
+              <hr>
+            </div>  
+            <div class="row">
+              <h3><strong>Más información</strong></h3>
+              <p class=" text-gray  subrayado">Localidades</p>
+              <h4><strong>Lorem ipsum et diligat</strong></h4>
+              <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+              <p class=" text-gray  subrayado">Hospimedia</p>
+              <h4><strong>Lorem ipsum et diligat</strong></h4>
+              <p class="text-gray">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            </div>
+      </div>
+      <div class="col-lg-3">
+        <h3><strong>Más información</strong></h3>
+          <ul>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Finanzas y fiscalización</strong></p>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Inversión y equipos</strong>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Medio ambiente</strong>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Habitat/Urbanismo</strong>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Sanidad</strong>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Social/Servicios</strong>
+            </li>
+            <li class="icon-list">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span><p><strong>Transporte</strong>
+            </li>
+          </ul>
+        <hr>
+          <div class="row">
+            <div class="bg-gray-2">
+              <h3>MAGAZINE <strong>ECODEFI</strong></h3>
+              <p class="text-gray">ENQUETE <br> Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, matis ac neque</p>
+              <p class="text-gray">PREGUNTAS <br>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-gray-2">
+              <h3>MAGAZINE <strong>ACCIONES COMUNES</strong></h3>
+              <p class="text-gray">ENQUETE <br> Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, matis ac neque</p>
+              <p class="text-gray">PREGUNTAS <br>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-gray-2"><p><strong>Nueva generación de la internet</strong></p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <hr>
+    <div class="row">
+      <div class="col-lg-3">
+        <ul>
+          <p><strong>Rubros</strong></p>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Actualidades</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>En directo</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Reporte financiero</strong> </li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Nuestra oferta</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>De nosotros a ustedes</strong></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <ul>
+          <p><strong>Expertise</strong></p>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Finanzas y fiscalización</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Investigación y equipos</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Medio ambiente</strong> </li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Habitat/Urbanismo</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Sanidad</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Social/Servicios</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Transporte</strong></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <ul>
+          <p><strong>Suscripción</strong></p>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Todo el flujo</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Flujo RSS para expertos</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Noticias</strong> </li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <ul>
+          <p><strong>Nosotros</strong></p>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>¿Quienes somos?</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Plan del sitio</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Información legal</strong> </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <ul>
+          <p><strong>Contacto</strong></p>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Contáctanos</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>FAQ</strong></li>
+          <li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span><strong>Haga sus preguntas</strong> </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
